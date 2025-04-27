@@ -19,7 +19,7 @@ export const enTranslations = {
     title: "About Me",
     photoAlt: "Profile Photo of Nada El Annasi",
     description:
-      "I am a passionate Software Engineering Student at ENSIAS with expertise in web development, mobile applications, and artificial intelligence. With experience in various projects, I've developed a diverse skill set including Java, Python, React, Angular, and more. I am constantly seeking new challenges to enhance my skills.",
+      "I am a passionate Software Engineering Student at ENSIAS with expertise in Cloud, DevOps, web development, mobile applications, and artificial intelligence. With experience in various projects, I've developed a diverse skill set including Java, Python, React, Angular, and more. I am constantly seeking new challenges to enhance my skills.",
     contactTitle: "Contact Information",
   },
   resume: {
@@ -30,18 +30,20 @@ export const enTranslations = {
       ensias: {
         title: "Software Engineering Student",
         institution: "Higher National School for Computer Science and Systems Analysis – ENSIAS",
-        description: "Specializing in Software Engineering with focus on web development and AI",
+        description: "",
       },
       cpge: {
         title: "Preparatory Classes for Grandes Écoles - CPGE (PSI Track)",
         institution: "Mohamed VI High School of Excellence LM6E",
-        description: "Intensive preparation for engineering schools entrance exams",
+        description: "",
       },
     },
     experience: {
       sectionTitle: "Experience",
       dataResearchLab: {
         title: "Software Engineering Intern",
+        organization: "Data Research Lab",
+        duration: "Jul 2024 - Aug 2024",
         description:
           "Transformed the desktop application BNA Manager into an interactive web application for insurance administrators. Worked closely with the Salesforce team to understand their challenges, enhancing my knowledge of Salesforce concepts.",
       },
@@ -50,29 +52,71 @@ export const enTranslations = {
       sectionTitle: "Extracurricular Activities",
       juniorEntreprise: {
         title: "Co-founder of JUNIOR ENTREPRISE ENSIAS",
+        organization: "ENSIAS",
+        duration: "Jul 2024 - Present",
         description: "Leading student-run organization providing professional services and opportunities",
       },
       erasmus: {
         title: 'Ambassador of the European Union "Erasmus+" Program',
         organization: "European Union",
+        duration: "Mar 2024 - Present",
         description: "Representing and promoting the Erasmus+ program in Morocco",
       },
-      taekwondo: {
-        title: "International Taekwondo Champion and Coach",
-        description: "Competing and coaching at ELITE Taekwondo Club in Tangier",
+      letterWriter: {
+        title: "Letter Writer",
+        organization: "Letters Against Isolation, USA",
+        duration: "Jul 2024",
+        description: "Wrote and decorated uplifting letters to provide encouragement and spread positivity to individuals in need of support",
+      },
+      conferenceManager: {
+        title: "Conference Manager",
+        organization: "Forum GENI ENTREPRISES",
+        duration: "Oct 2023 - Present",
+        description: "Managed conference operations and coordination for the FORUM GENI ENREPRISE events",
+      },
+      foodBank: {
+        title: "Food Bank Volunteer",
+        organization: "St. Louis Area Foodbank, USA",
+        duration: "Jul 2024",
+        description: "Contributed to packing enough boxes to provide 6 years' worth of food assistance",
       },
     },
     awards: {
       sectionTitle: "Distinctions & Awards",
       susi: {
         title: "Alumna of the SUSI for Women Leaders Program",
+        organization: "University of Kansas, USA",
+        duration: "Jun 2024 - Jul 2024",
         description:
           "Completed the Study of the U.S. Institutes for Women Leaders on Public Policy Program at University of Kansas",
       },
       taekwondo: {
         title: "International Taekwondo Champion",
+        organization: "ELITE Taekwondo & Fitness Club",
+        duration: "Jul 2016 - Jan 2022",
         description: "Multiple awards and recognitions in international Taekwondo competitions",
       },
+      spaceCamper: {
+        title: "Space Camper",
+        organization: "U.S Embassy Morocco & Scientific Morocco Association",
+        duration: "Jul 2022",
+        description: "Participated in the Race2space Camp at Terres Damanar in Marrakech, a program dedicated to fostering youth interest in STEM through space education, Arduino projects, and exploration of aerospace careers",
+      },
+      debateTeam: {
+        title: "Prime Minister Of The Winning Debate Team",
+        organization: "AESVT Maroc",
+        duration: "Apr 2019",
+        description: "Led the debate team through competitive phases addressing Morocco's waste management challenges, winning against 20+ institutions in Tangier and reaching the Finals in Fez",
+      },
+    },
+    certifications: {
+      sectionTitle: "Certifications",
+      aiAnalyst: {
+        title: "Artificial Intelligence Analyst Certificate: Explorer",
+        organization: "IBM",
+        duration: "Mar 2024",
+        description: "Professional certification in AI analysis and implementation"
+      }
     },
   },
   projects: {

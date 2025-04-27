@@ -19,7 +19,7 @@ export default function Footer() {
 
           <div className="flex space-x-6">
             <motion.a
-              href="https://github.com"
+              href="https://github.com/elannasinada/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -30,7 +30,7 @@ export default function Footer() {
               <Github className="h-5 w-5" />
             </motion.a>
             <motion.a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/elannasinada"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"

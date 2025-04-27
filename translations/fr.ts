@@ -20,7 +20,7 @@ export const frTranslations = {
     title: "À propos de moi",
     photoAlt: "Photo de profil de Nada El Annasi",
     description:
-      "Je suis une étudiante passionnée en génie logiciel à l'ENSIAS avec une expertise en développement web, applications mobiles et intelligence artificielle. Grâce à mon expérience dans divers projets, j'ai développé un ensemble de compétences diversifiées incluant Java, Python, React, Angular, et plus encore. Je suis constamment à la recherche de nouveaux défis pour améliorer mes compétences.",
+      "Je suis une étudiante passionnée en génie logiciel à l'ENSIAS avec une expertise en Cloud, DevOps, développement web, applications mobiles et intelligence artificielle. Grâce à mon expérience dans divers projets, j'ai développé un ensemble de compétences diversifiées incluant Java, Python, React, Angular, et plus encore. Je suis constamment à la recherche de nouveaux défis pour améliorer mes compétences.",
     contactTitle: "Informations de contact",
   },
   resume: {
@@ -31,18 +31,20 @@ export const frTranslations = {
       ensias: {
         title: "Élève Ingénieur en Génie Logiciel",
         institution: "École Nationale Supérieure d'Informatique et d'Analyse de Systèmes - ENSIAS",
-        description: "Spécialisation en génie logiciel avec un accent sur le développement web et l'IA",
+        description: "",
       },
       cpge: {
         title: "Classes Préparatoires aux Grandes Écoles - CPGE (Filière PSI)",
         institution: "Lycée Mohamed VI d'excellence (ex-LYDEX)",
-        description: "Préparation intensive aux concours d'entrée des écoles d'ingénieurs",
+        description: "",
       },
     },
     experience: {
       sectionTitle: "Expérience",
       dataResearchLab: {
         title: "Stage en Génie Logiciel",
+        organization: "Data Research Lab",
+        duration: "Juillet 2024 - Août 2024",
         description:
           "Transformation de l'application desktop BNA Manager en une application web interactive pour les administrateurs des assurances. Collaboration étroite avec l'équipe Salesforce pour comprendre leurs problématiques, renforçant ma connaissance des concepts Salesforce.",
       },
@@ -51,29 +53,71 @@ export const frTranslations = {
       sectionTitle: "Activités Extrascolaires",
       juniorEntreprise: {
         title: "Co-fondatrice de la JUNIOR ENTREPRISE ENSIAS",
+        organization: "ENSIAS",
+        duration: "Juillet 2024 - Présent",
         description: "Direction d'une organisation étudiante offrant des services professionnels et des opportunités",
       },
       erasmus: {
         title: 'Ambassadrice du programme "Erasmus+" de l\'Union Européenne',
         organization: "Union Européenne",
+        duration: "Mars 2024 - Présent",
         description: "Représentation et promotion du programme Erasmus+ au Maroc",
       },
-      taekwondo: {
-        title: "Championne Internationale de Taekwondo et Coach",
-        description: "Compétition et coaching au club ELITE Taekwondo à Tanger",
+      letterWriter: {
+        title: "Rédactrice de Lettres",
+        organization: "Letters Against Isolation, États-Unis",
+        duration: "Juillet 2024",
+        description: "Écriture et décoration de lettres inspirantes pour encourager et répandre la positivité aux personnes ayant besoin de soutien",
+      },
+      conferenceManager: {
+        title: "Responsable de Conférences",
+        organization: "Forum GENI ENTREPRISES",
+        duration: "Octobre 2023 - Présent",
+        description: "Gestion des opérations et coordination des événements du FORUM GENI ENREPRISE",
+      },
+      foodBank: {
+        title: "Bénévole à la Banque Alimentaire",
+        organization: "St. Louis Area Foodbank, États-Unis",
+        duration: "Juillet 2024",
+        description: "Contribution à l'emballage de suffisamment de boîtes pour fournir 6 ans d'aide alimentaire",
       },
     },
     awards: {
       sectionTitle: "Distinctions & Prix",
       susi: {
         title: "Diplômée du programme SUSI pour les femmes Leaders",
+        organization: "Université du Kansas, États-Unis",
+        duration: "Juin 2024 - Juillet 2024",
         description:
           "Completion du programme Study of the U.S. Institutes for Women Leaders on Public Policy à l'Université du Kansas",
       },
       taekwondo: {
         title: "Championne Internationale de Taekwondo",
+        organization: "ELITE Taekwondo & Fitness Club",
+        duration: "Juillet 2016 - Janvier 2022",
         description: "Multiples prix et reconnaissances dans les compétitions internationales de Taekwondo",
       },
+      spaceCamper: {
+        title: "Participante au Camp Spatial",
+        organization: "Ambassade des États-Unis au Maroc & Association Scientific Morocco",
+        duration: "Juillet 2022",
+        description: "Participation au Camp Race2space à Terres Damanar à Marrakech, un programme dédié à stimuler l'intérêt des jeunes pour les STEM à travers l'éducation spatiale, les projets Arduino et l'exploration des carrières aérospatiales",
+      },
+      debateTeam: {
+        title: "Premier Ministre de l'Équipe Gagnante du Débat",
+        organization: "AESVT Maroc",
+        duration: "Avril 2019",
+        description: "Direction de l'équipe de débat à travers des phases compétitives abordant les défis de gestion des déchets au Maroc, remportant la victoire contre plus de 20 institutions à Tanger et atteignant la finale à Fès",
+      },
+    },
+    certifications: {
+      sectionTitle: "Certifications",
+      aiAnalyst: {
+        title: "Certificat d'Analyste en Intelligence Artificielle: Explorer",
+        organization: "IBM",
+        duration: "Mars 2024",
+        description: "Certification professionnelle en analyse et implémentation d'IA"
+      }
     },
   },
   projects: {
