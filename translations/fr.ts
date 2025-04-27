@@ -165,6 +165,12 @@ export const frTranslations = {
           "Conception et développement d'une plateforme pour la gestion des stages de l'ENSIAS utilisant Oracle Apex, Oracle Database et PL-SQL.",
         category: "web",
       },
+      tasky: {
+        title: "Tasky – Gestion de Tâches Intelligente",
+        description:
+          "Application mobile intelligente pour la gestion des tâches quotidiennes utilisant l'IA pour analyser les habitudes, prioriser automatiquement les tâches et proposer des rappels optimisés.",
+        category: "mobile",
+      },
     },
   },
   contact: {

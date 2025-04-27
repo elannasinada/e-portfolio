@@ -164,6 +164,12 @@ export const enTranslations = {
           "Designed and developed a platform for managing internships at ENSIAS using Oracle Apex, Oracle Database, and PL-SQL.",
         category: "web",
       },
+      tasky: {
+        title: "Tasky – Intelligent Task Management",
+        description:
+          "Smart mobile application for task management using AI to analyze user habits, prioritize tasks, and provide optimized reminders to increase productivity.",
+        category: "mobile",
+      },
     },
   },
   contact: {

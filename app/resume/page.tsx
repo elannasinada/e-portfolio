@@ -13,9 +13,6 @@ export default function ResumePage() {
   const t = useTranslations()
   useThemePersistence()
   
-  // Get the current language
-  const languageState = useLanguagePersistence()
-  
   // Create a state to track the current language more reliably
   const [currentLanguage, setCurrentLanguage] = useState('en')
   
